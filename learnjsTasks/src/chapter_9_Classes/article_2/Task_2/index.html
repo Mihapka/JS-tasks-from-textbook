@@ -1,0 +1,26 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Улучшенные часы</title>
+</head>
+<html>
+    <body>
+        <script src="index.js"></script>
+
+<!--        <script>-->
+<!--          let clock = new Clock({-->
+<!--            template: 'h:m:s'-->
+<!--          });-->
+<!--          clock.start();-->
+<!--        </script>-->
+
+        <script src="extended-clock.js"></script>
+
+        <script>
+          let lowResolutionClock = new ExtendedClock({
+            template: 'h:m:s',
+            precision: 10000
+          });
+          lowResolutionClock.start();
+        </script>
+    </body>
+</html>
