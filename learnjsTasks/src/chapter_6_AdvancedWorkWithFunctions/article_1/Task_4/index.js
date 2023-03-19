@@ -12,7 +12,7 @@ let list = {
     }
 };
 
-function loopListOutput(list) {
+function printingListWithLoop(list) {
     let tmp = list;
     alert("используем цикл while");
 
@@ -24,7 +24,7 @@ function loopListOutput(list) {
 }
 
 
-function listListRecursion(list) {
+function printingListWithRecursion(list) {
 
 //    alert("используем рекурсию");
     alert(list.value);
@@ -36,7 +36,7 @@ function listListRecursion(list) {
 }
 
 
-loopListOutput(list);
+printingListWithLoop(list);
 
 alert("используем рекурсию");
-listListRecursion(list);
+printingListWithRecursion(list);
